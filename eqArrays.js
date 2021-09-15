@@ -20,6 +20,7 @@ const eqArrays = function(arrayOne, arrayTwo) {
       return false; //If above cases return false, arrays are equal, return true.
     }
   }
+  return true;
 };
 
 
