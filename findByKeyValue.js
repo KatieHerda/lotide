@@ -7,6 +7,8 @@ const assertEqual = function(actual, expected) {
 
 };
 
+//function that takes in an object and a value. Return the first key which contains the given value. If no key with that given value is found, then it should return undefined.
+
 const findKeyByValue = function(objects, value) {
   //console.log("Object keys: ", Object.keys(objects))
   //console.log("object: ", objects);

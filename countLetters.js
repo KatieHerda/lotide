@@ -1,3 +1,4 @@
+//Used for checking primitive return types. 
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion passed: ${actual} === ${expected}`);
@@ -6,12 +7,10 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-//The function should take in a sentence (as a string) and then return a count of each of the letters in that sting.
+//Function that takes in a string and returns a count of each letter in that sting.
 
 const countLetters = function(inputString) {
-  let finalCountObj = {};
-
-  
+  let finalCountObj = {};  
   //loop over string characters
   for (const letter of inputString) {
     if (letter === ' ') {

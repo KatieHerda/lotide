@@ -21,7 +21,7 @@ const assertArraysEqual = function(actual, expected) {
 }
 
 
-//Return all the indices (zero-based positions) in the string where each character is found.
+//Function that takes in a sentence and returns all the indices in the string where each character is found.
 
 const letterPositions = function(sentence) {
 
@@ -44,7 +44,7 @@ const letterPositions = function(sentence) {
   return results;
 };
 
-console.log(letterPositions("lighthouse in the house"));
+//console.log(letterPositions("lighthouse in the house"));
 
 assertArraysEqual(letterPositions("hello").h, [0]);
 assertArraysEqual(letterPositions("hello").e, [1]);
