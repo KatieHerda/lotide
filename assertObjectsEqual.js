@@ -1,12 +1,12 @@
 // Function that will take in two objects and returns true or false, based on a perfect match.
 const eqObjects = function(object1, object2) {
-  if (Object.keys(object1).length !== Object.keys(object2).length){
+  if (Object.keys(object1).length !== Object.keys(object2).length) {
     return false;
   }
   for (const key of Object.keys(object1)) {
     if (Array.isArray(object1[key]) !== Array.isArray(object2[key])) {
       return false;
-    } 
+    }
     if (Array.isArray(object1[key]) === true) {
       if (eqArrays(object1[key], object2[key]) !== true) {
         return false;
@@ -15,7 +15,7 @@ const eqObjects = function(object1, object2) {
       
       if (object1[key] !== object2[key]) {
         return false;
-      } 
+      }
     }
   }
   return true;
