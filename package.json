@@ -1,13 +1,13 @@
 {
-  "name": "lotide",
+  "name": "@katieherda/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library. Published for learning purposes and is not intended for use in production-grade software",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": ""
   },
   "repository": {
     "type": "git",
