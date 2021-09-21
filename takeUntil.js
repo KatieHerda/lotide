@@ -19,7 +19,7 @@ const assertArraysEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertation Failed: ${actual} !== ${expected}`);
   }
 };
-
+//returns a slice of an array with elements taken from the beginning and elements following until the callback/predicate returns a truthy value.
 const takeUntil = function(array, callBack) {
   let newArray = [];
   for (const element of array) {

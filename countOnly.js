@@ -7,7 +7,7 @@ const assertEqual = function(actual, expected) {
 
 };
 
-//Function that takes in an array and an object and returns an object with counts of everything that the input object listed.
+//Function that takes in a collection of items and return counts for a specific subset of those items.
 
 // allItems: an array of strings that we need to look through
 // itemsToCount: an object specifying what to count

@@ -22,7 +22,7 @@ const assertArraysEqual = function(actual, expected) {
 
 const words = ["ground", "control", "to", "major", "tom"];
 
-//return a new array
+// returns a new array based on the results of the callback function.
 const map = function(array, cb) {
   const results = [];
   for (let element of array) {
